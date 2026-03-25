@@ -310,7 +310,7 @@ function createIssueCard(issue) {
                     <div class="text-xs py-4 border-t border-gray-500 text-gray-500">
                     <div class="flex items-center">
                     <i class="fas fa-user-circle mr-1"></i>
-                        # ${issue.id}</ span>
+                        <span># ${issue.id}</ span>
                         <span>${issue.author || "Unknown"}</span>
                     </div>
                     <div class="py-2">

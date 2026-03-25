@@ -4,7 +4,7 @@
 
 
 
-loading-spinner {
+.loading-spinner {
     border: 3px solid #f3f3f3;
     border-top: 3px solid #4A00FF;
     border-radius: 50%;

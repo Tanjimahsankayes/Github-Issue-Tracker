@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <!-- sign up -->
+    <!-- Login Page -->
     <div id="loginPage" class=" w-full max-w-sm sm:max-w-md my-6 mx-auto">
         <div class="bg-white rounded-lg shadow-lg p-8">
 
@@ -37,8 +37,6 @@
             </div>
 
             <h1 class="text-2xl font-bold text-center text-gray-800 mb-2">GitHub Issues Tracker</h1>
-
-
             <p class="text-center text-gray-600 mb-8">Sign in to manage your issues</p>
 
             <!-- Login Form -->
@@ -62,7 +60,7 @@
 
 
                 <button type="submit"
-                    class="w-full bg-[#4A00FF] text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 font-medium">
+                    class="w-full bg-[#4A00FF] text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 font-medium cursor-pointer">
                     Sign In
                 </button>
             </form>
@@ -100,7 +98,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
                 <div class="md:flex md:flex-row sm:flex-col  justify-between items-center sm:h-32 md:h-16 p-3">
 
-                    <div class="flex justify-center items-center gap-4 ">
+                    <div class="flex justify-center items-center gap-4 cursor-pointer ">
                         <span class=" w-9 "><img src="./assets/github-logo.png" alt="github logo"></span>
                         <h1 class="text-2xl font-semibold text-gray-800">GitHub Issues Tracker</h1>
                     </div>
@@ -116,7 +114,7 @@
                             </button>
                         </div>
                         <button id="newIssueBtn"
-                            class="bg-[#4A00FF] text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition duration-200 flex items-center">
+                            class="bg-[#4A00FF] text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition duration-200 flex items-center cursor-pointer ">
 
                             + New issue
                         </button>
@@ -132,15 +130,15 @@
 
                 <div class="flex p-3 sm:p-6 pt-8 gap-2 sm:gap-4">
                     <button
-                        class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 tab-active"
+                        class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 tab-active cursor-pointer "
                         data-tab="all">
                         All
                     </button>
-                    <button class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 "
+                    <button class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 cursor-pointer"
                         data-tab="open">
                         Open
                     </button>
-                    <button class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 "
+                    <button class="tab-btn py-2 px-8 bg-gray-200 rounded-lg font-medium transition duration-200 cursor-pointer"
                         data-tab="closed">
                         Closed
                     </button>

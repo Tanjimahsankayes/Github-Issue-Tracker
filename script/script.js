@@ -279,7 +279,7 @@ function createIssueCard(issue) {
     ? issue.labels
         .map(
           (label) =>
-            `<span class="inline-block bg-green-300 text-green-500 text-xs px-2 py-1 rounded">${label}</span>`,
+            `<span class="inline-block bg-red-300 text-red-900 text-xs px-2 py-1 rounded-full">${label}</span>`,
         )
         .join(" ")
     : "";

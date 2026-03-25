@@ -9,16 +9,22 @@ const is block-scoped and cannot be updated or re-declared.
 
 Ans :
 The spread operator (...) is used to expand elements of an array or object. It helps to copy, merge, or pass values easily.
+
+
 3️⃣ What is the difference between map(), filter(), and forEach()?
 
 Ans :
 map() returns a new array after modifying each element.
 filter() returns a new array based on a condition.
 forEach() just loops through elements and does not return anything.
+
+
 4️⃣ What is an arrow function?
 
 Ans :
 An arrow function is a shorter way to write functions using =>. It makes the code cleaner and more concise.
+
+
 5️⃣ What are template literals?
 
 Ans :
